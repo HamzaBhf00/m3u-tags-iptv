@@ -1,0 +1,23 @@
+| TVG | Meaning |
+| --- | ------- |
+| TVG-ID | Specifies the unique identifier of the current media file. This tag is used to identify individual channels in the playlist. |
+| TVG-NAME | Specifies the name of the current channel. This tag is used to display the name of the channel in the IPTV player. |
+| TVG-LOGO | Specifies the URL of the logo for the current channel. This tag is used to display the logo of the channel in the IPTV player. |
+| TVG-COUNTRY | Specifies the country code of the current channel. This tag is used to group channels by country in the playlist. |
+| TVG-LANGUAGE | Specifies the language code of the current channel. This tag is used to group channels by language in the playlist. |
+| TVG-TYPE | Specifies the type of the current channel. This tag is used to group channels by type (e.g. news, sports, entertainment) in the playlist. |
+| TVG-URL | Specifies the URL of the website for the current channel. This tag is used to provide additional information about the channel. |
+| TVG-GROUP | Specifies the name of the group that the current channel belongs to. This tag is used to group channels in the playlist. |
+| TVG-EPGID | Specifies the unique identifier of the electronic program guide (EPG) for the current channel. This tag is used to associate the channel with its program guide. |
+| TVG-EPGURL | Specifies the URL of the electronic program guide (EPG) for the current channel. This tag is used to provide the location of the channel's program guide. |
+| TVG-EPGSHIFT | Specifies the time shift (in hours) of the electronic program guide (EPG) for the current channel. This tag is used to adjust the program guide for time zone differences. |
+| TVG-RADIO | Specifies whether the current channel is a radio channel. This tag is used to differentiate between TV and radio channels in the playlist. |
+| TVG-TIMESHIFT | Specifies the time shift (in hours) of the current channel. This tag is used to adjust the channel's start time for time zone differences. |
+| TVG-ARCHIVE | Specifies whether the current channel has an archive. This tag is used to indicate whether the channel offers archived content. |
+| TVG-TVGPLAYLIST | Specifies the URL of the TVG playlist for the current channel. This tag is used to provide additional playlist information. |
+| TVG-ASPECT-RATIO | Specifies the aspect ratio of the current channel. This tag is used to set the aspect ratio for the channel. |
+| TVG-AUDIO-TRACK | Specifies the audio track for the current channel. This tag is used to set the audio track for the channel. |
+| TVG-CLOSED-CAPTIONS | Specifies whether the current channel has closed captions. This tag is used to indicate whether the channel offers closed captions. |
+| TVG-CLOSED-CAPTIONS-LANGUAGE | Specifies the language of the closed captions for the current channel. This tag is used to set the language of the closed captions. |
+| TVG-CLOSED-CAPTIONS-TYPE | Specifies the type of the closed captions for the current channel. This tag is used to set the type of the closed captions. |
+| TVG-CONTENT-TYPE | Specifies the content type for the current channel. This tag is used to indicate the type of content being broadcast (e.g. movie, TV
