@@ -7,7 +7,7 @@ The M3U file format is a popular way of creating playlists for media players, in
 
 - [EXT Tags](#ext-tags)
 - [TVG Tags](#tvg-tags)
-- [Difference between EXT and TVG](#difference-between-ext-and-tvg)
+- [Difference between EXT and TVG tags](#difference-between-ext-and-tvg-tags)
 - [Difference between ".ts" and ".m3u" files](#difference-between-ts-and-m3u-files)
 - [Example](#example)
 
@@ -17,7 +17,7 @@ TVG and EXT are both types of tags used in M3U playlist files for IPTV streaming
 
 TVG stands for "TV Guide," and is a type of tag used to provide information about the channel being played, such as its name, logo, and URL. The TVG tags are commonly used by IPTV players to display channel information, and they include TVG-ID, TVG-Logo, TVG-Name, and TVG-URL.
 
-EXT, on the other hand, stands for "extension," and is a type of tag used to add additional functionality to the M3U playlist file. EXT tags are used to specify various parameters for the IPTV stream, such as duration, bandwidth, and resolution.
+EXT, on the other hand, stands for "extension," and is a type of tag used to add additional functionality to the M3U playlist file. EXT tags are used to specify various parameters for the IPTV stream, such as duration, bandwidth, and resolution. Some examples of EXT tags include EXT-X-VERSION, EXT-X-TARGETDURATION, and EXT-X-MEDIA-SEQUENCE.
 
 ## Difference between ".ts" and ".m3u"
 
