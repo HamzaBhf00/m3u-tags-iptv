@@ -7,6 +7,62 @@ The M3U file format is a popular way of creating playlists for media players, in
 
 - [EXT Tags](#ext-tags)
 - [TVG Tags](#tvg-tags)
+- [Difference between EXT and TVG](#difference-between-ext-and-tvg)
+- [Difference between ".ts" and ".m3u" files](#difference-between-ts-and-m3u-files)
+- [Example](#example)
+
+## Difference between EXT and TVG
+
+TVG and EXT are both types of tags used in M3U playlist files for IPTV streaming, but they serve different purposes.
+
+TVG stands for "TV Guide," and is a type of tag used to provide information about the channel being played, such as its name, logo, and URL. The TVG tags are commonly used by IPTV players to display channel information, and they include TVG-ID, TVG-Logo, TVG-Name, and TVG-URL.
+
+EXT, on the other hand, stands for "extension," and is a type of tag used to add additional functionality to the M3U playlist file. EXT tags are used to specify various parameters for the IPTV stream, such as duration, bandwidth, and resolution.
+
+## Difference between ".ts" and ".m3u"
+
+The ".ts" file extension refers to the Transport Stream format, which is used for transmitting audio and video data over networks, particularly for IPTV streaming. On the other hand, the ".m3u" file extension refers to an M3U playlist file, which is used to organize and play audio and video files.
+
+## Example
+
+An example of how TVG and EXT tags might be used in an M3U playlist file:
+
+```sh
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-TARGETDURATION:11
+#EXTINF:10.000000,
+http://example.com/stream1.ts
+#EXTINF:10.000000,
+http://example.com/stream2.ts
+#EXTINF:10.000000,
+http://example.com/stream3.ts
+#EXTINF:10.000000,
+http://example.com/stream4.ts
+#EXTINF:10.000000,
+http://example.com/stream5.ts
+#EXTINF:10.000000,
+http://example.com/stream6.ts
+#EXTINF:10.000000,
+http://example.com/stream7.ts
+#EXTINF:10.000000,
+http://example.com/stream8.ts
+#EXTINF:10.000000,
+http://example.com/stream9.ts
+#EXTINF:10.000000,
+http://example.com/stream10.ts
+#EXTINF:10.000000,
+http://example.com/stream11.ts
+#EXT-X-ENDLIST
+
+#EXTINF:10.000000,TVG-ID="Channel1" tvg-name="Channel 1" tvg-logo="http://example.com/channel1.png" group-title="Entertainment",Channel 1
+http://example.com/stream1.ts
+
+#EXTINF:10.000000,TVG-ID="Channel2" tvg-name="Channel 2" tvg-logo="http://example.com/channel2.png" group-title="Entertainment",Channel 2
+http://example.com/stream2.ts
+
+```
 
 ## EXT Tags
 | EXT | Meaning |
@@ -105,6 +161,32 @@ The M3U file format is a popular way of creating playlists for media players, in
 | TVG-CLOSED-CAPTIONS-LANGUAGE | Specifies the language of the closed captions for the current channel. This tag is used to set the language of the closed captions. |
 | TVG-CLOSED-CAPTIONS-TYPE | Specifies the type of the closed captions for the current channel. This tag is used to set the type of the closed captions. |
 | TVG-CONTENT-TYPE | Specifies the content type for the current channel. This tag is used to indicate the type of content being broadcast (e.g. movie, TVshow, documentary). |
+| TVG-COPYRIGHT | Specifies the copyright information for the current channel. This tag is used to display the copyright information for the channel. |
+| TVG-DURATION | Specifies the duration of the current media file. This tag is used to set the duration of the media file. |
+| TVG-EXT-X-DISCONTINUITY | Specifies a discontinuity point in the media file. This tag is used to signal a break in the stream. |
+| TVG-EXT-X-ENDLIST | Specifies the end of the media file. This tag is used to indicate the end of the playlist. |
+| TVG-EXT-X-KEY | Specifies the encryption key for the media file. This tag is used to encrypt the media file. |
+| TVG-EXT-X-MEDIA-SEQUENCE | Specifies the sequence number for the media file. This tag is used to indicate the order of the media files in the playlist. |
+| TVG-EXT-X-PROGRAM-DATE-TIME | Specifies the date and time of the current media file. This tag is used to synchronize the media file with the program guide. |
+| TVG-EXT-X-VERSION | Specifies the version of the M3U8 playlist format being used. This tag is used to indicate the version of the playlist. |
+| TVG-GAP | Specifies the time gap (in seconds) between the end of the previous media file and the start of the current media file. This tag is used to synchronize the media files. |
+| TVG-INDEPENDENT-SEGMENTS | Specifies whether the media files are independent segments. This tag is used to indicate whether the media files can be played independently. |
+| TVG-MEDIA | Specifies the media type for the current media file. This tag is used to indicate the type of media being played (e.g. video, audio). |
+| TVG-MEDIA-SEQUENCE | Specifies the sequence number for the media file. This tag is used to indicate the order of the media files in the playlist. |
+| TVG-PLAYLIST-TYPE | Specifies the type of playlist being used. This tag is used to indicate whether the playlist is dynamic or static. |
+| TVG-START | Specifies the start time (in seconds) for the current media file. This tag is used to set the start time for the media file. |
+| TVG-TARGETDURATION | Specifies the maximum duration (in seconds) of the media files. This tag is used to set the maximum duration for the media files. |
+| TVG-X-BYTERANGE | Specifies the byte range of the current media file. This tag is used to specify a byte range within a media file. |
+| TVG-X-ENDLIST | Specifies the end of the media file. This tag is used to indicate the end of the playlist. |
+| TVG-X-KEY | Specifies the encryption key for the media file. This tag is used to encrypt the media file. |
+| TVG-X-MEDIA-SEQUENCE | Specifies the sequence number for the media file. This tag is used to indicate the order of the media files in the playlist. |
+| TVG-X-PROGRAM-DATE-TIME | Specifies the date and time of the current media file. This tag is used to synchronize the media file with the program guide. |
+| TVG-X-VERSION | Specifies the version of the M3U8 playlist format being used. This tag is used to indicate the version of the playlist. |
+| TVG-RESOLUTION | Specifies the resolution of the current media file. This tag is used to set the resolution for the media file. |
+| TVG-FRAMERATE | Specifies the frame rate of the current media file. |
+
+
+🙌 For The Community, For The People!
 
 
 
