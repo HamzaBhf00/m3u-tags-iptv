@@ -1,3 +1,9 @@
+### Get IPTV Template (Sponsored)
+Looking for a professional and easy-to-use IPTV template? Take your IPTV service to the next level with fully-featured templates.
+
+Get your IPTV template now 👉🏼 [IPTV Templates](https://mizostemplates.com/iptv-elementor-templates/)
+
+![IPTV Template](https://github.com/user-attachments/assets/73ae323a-f78e-4dc5-a1f4-ccfb75a8c07e)
 
 # All M3U Tags For IPTV Playlist
 
