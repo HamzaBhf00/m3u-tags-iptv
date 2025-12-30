@@ -1,9 +1,14 @@
-### Get IPTV Template (Sponsored)
+### Get IPTV Templates (Sponsored)
 Looking for a professional and easy-to-use IPTV template? Take your IPTV service to the next level with fully-featured templates.
 
-Get your IPTV template now 👉🏼 [IPTV Templates](https://mizostemplates.etsy.com/listing/1620118671/elementor-kit-for-internet-protocol-tv)
+1. Get your IPTV template now 👉🏼 [IPTV Template 1](https://mizostemplates.etsy.com/listing/1620118671/elementor-kit-for-internet-protocol-tv) - Website Demo: https://iptivi.mizostemplates.com/
 
 ![IPTV Template](https://github.com/user-attachments/assets/73ae323a-f78e-4dc5-a1f4-ccfb75a8c07e)
+
+2. Get your IPTV template now 👉🏼 [IPTV Template 2](https://dub.sh/aquatv) - Website Demo: https://aquatv.mizostemplates.com/
+
+<img width="500" height="500" src="https://github.com/user-attachments/assets/b7a773b8-221f-4d8b-8e23-709ba879370d" />
+
 
 # All M3U Tags For IPTV Playlist
 
